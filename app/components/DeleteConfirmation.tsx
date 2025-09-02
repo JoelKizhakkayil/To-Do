@@ -22,7 +22,7 @@ const DeleteConfirmation: React.FC<DeleteConfirmationProps> = ({
       <div className="bg-white rounded-lg p-6 max-w-sm w-full mx-4">
         <h3 className="text-lg font-semibold mb-4">Delete Task</h3>
         <p className="text-gray-600 mb-6">
-          Are you sure you want to delete "{taskText}"?
+          Are you sure you want to delete {taskText}?
         </p>
         <div className="flex gap-3 justify-end">
           <button onClick={onCancel} className="px-4 py-2 text-gray-600 border border-gray-300 rounded hover:bg-gray-50">
