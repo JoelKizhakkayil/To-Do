@@ -6,9 +6,7 @@ from datetime import datetime
 app = Flask(__name__)
 CORS(app)
 
-todos = [
-   
-]
+todos = []
 
 @app.route('/')
 def home():
